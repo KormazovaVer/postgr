@@ -214,6 +214,9 @@ VALUES(15, 8, 'Atlantis', 324);
 INSERT INTO public.tracks
 (id, albums_id, title, track_time)
 VALUES(16, 9, 'It''s My Life', 225);
+INSERT INTO public.tracks
+(id, albums_id, title, track_time)
+VALUES(17, NULL, 'OK', 210);
 INSERT INTO public.art_genre
 (id, genre_id, artists_id)
 VALUES(1, 1, 1);
@@ -238,4 +241,6 @@ VALUES(7, 2, 7);
 INSERT INTO public.art_genre
 (id, genre_id, artists_id)
 VALUES(8, 2, 8);
-
+INSERT INTO public.art_genre
+(id, genre_id, artists_id)
+VALUES(9, 4, 8);
